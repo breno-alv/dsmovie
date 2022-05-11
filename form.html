@@ -37,9 +37,28 @@
                 src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/5vaxg5JTbCAqvcPGT88kQNtKNPR.jpg"
                 alt="O Hobbit: Uma jornada Inesperada"
               />
-              <div class="dsmovie_card_description">
+              <div class="dsmovie_form_description">
                 <h3>O Hobbit: Uma jornada Inesperada</h3>
-                <a class="dsmovie_btn" href="index.html">Cancelar</a>
+                <form class="dsmovie_form">
+                  <div class="form-group dsmovie_form_group">
+                    <label for="email">Informe seu E-mail</label>
+                    <input class="form-control" type="email" id="email" />
+                  </div>
+                  <div class="form-group dsmovie_form_group">
+                    <label for="score">Informe sua Avaliação</label>
+                    <select class="form-control" name="score" id="score">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </div>
+                  <div class="dsmovie_form_btn_container">
+                    <button class="dsmovie_btn" type="submit">Salvar</button>
+                    <a class="dsmovie_btn" href="index.html">Cancelar</a>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
