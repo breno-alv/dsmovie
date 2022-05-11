@@ -123,7 +123,7 @@ a:hover {
  width: 22px;
 }
 
-.dsmovie_btn, .dsmovie_btn:hover {
+.dsmovie_btn, .dsmovie_btn_cancel, .dsmovie_btn:hover {
   width: 180px;
   height: 40px;
   background-color: var(--color-primary);
@@ -135,7 +135,22 @@ a:hover {
   justify-content: center;
   border-radius: 4px;
   border: none;
+  text-decoration: none;
+  transition-duration: 0.2s;
 }
+
+.dsmovie_btn:hover{
+  background-color: #07a0d3;
+  color: white;
+  /* transition-duration: 0.1s; */
+}
+
+.dsmovie_btn_cancel:hover{
+  background-color: #f86c0e;
+  color: white;
+  /* transition-duration: 0.1s;  */
+}
+
 /* Estilizando o Formulario */
 .dsmovie_form_description{
   background-color: var(--white);
