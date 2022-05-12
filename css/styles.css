@@ -44,6 +44,15 @@ nav a {
   font-weight: 400;
 }
 
+.container_logo {
+  display: flex;
+  align-items: center;
+}
+
+.container_logo img{
+  width: 30px;
+}
+
 header {
   background-color: var(--color-primary);
   color: var(--white);
